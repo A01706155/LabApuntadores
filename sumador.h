@@ -16,7 +16,6 @@ public:
   Sumador(string numerote1, string numerote2);
   string getSuma();
   string elnum1, elnum2;
-  string dir_num1, dir_num2;
 
 };
 
