@@ -8,6 +8,6 @@ int main()
 { 
 
     Sumador a("32940835902858459273489", "849759357083450484");
-    cout << a.getSuma();
+    a.sumarnumeros();
     return 0; 
 } 
