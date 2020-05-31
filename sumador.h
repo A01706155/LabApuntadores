@@ -27,10 +27,13 @@ void Sumador::sumarnumeros(){
       // Before proceeding further, make sure length 
     // of str2 is larger. 
     if (str1.length() > str2.length()) 
-        swap(str1, str2); 
+        string intercambio
+        intercambio = str2
+        str2 = str1
+        str1 = intercambio
   
     // Take an empty string for storing result 
-    string str = ""; 
+    string resultado; 
   
     // Calculate length of both string 
     int n1 = str1.length(), n2 = str2.length(); 
